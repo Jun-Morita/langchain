@@ -8,7 +8,7 @@ This GitHub repository contains sample code for building web applications using 
 
 First, create a Python environment:
 
-> conda create -n langchain python=3.11
+> conda create -n langchain python=3.11  
 > conda activate langchain  
 
 > pip install openai==1.35.13  
