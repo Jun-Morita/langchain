@@ -19,7 +19,7 @@ Create a secrets.toml file in the .streamlit folder and add the following code:
 
 ## Execution
 
-> conda activate code-assistant  
+> conda activate langchain    
 > streamlit run chatbot.py  
 
 ## Reference

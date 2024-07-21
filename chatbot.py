@@ -8,7 +8,7 @@ from langchain.prompts import ChatPromptTemplate
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # Model options
-model_options = ["gpt-4o", "gpt-4-turbo", "gpt-3.5-turbo"]
+model_options = ["gpt-4o", "gpt-4o-mini"]
 model_choice = st.sidebar.selectbox("Select OpenAI Model:", model_options)
 
 # LangChain configuration
